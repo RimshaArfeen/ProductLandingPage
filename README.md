@@ -1,7 +1,3 @@
-Here's a more concise version of the README with a styled touch and a placeholder for the coffee image:
-
----
-
 # Nesta Coffee - E-Commerce Website
 
 ## Features
