@@ -1,0 +1,10 @@
+.box{
+    background-color:  rgba(0, 0, 0, 0.514);
+    border-radius: 12px;
+}
+.relative > input, textarea {
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.con_btn{
+    background-color: rgb(127 71 5);
+}

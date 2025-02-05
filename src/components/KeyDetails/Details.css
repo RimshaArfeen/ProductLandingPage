@@ -1,0 +1,102 @@
+
+.login-sidebar {
+  border-radius: 2px;
+  width: 100%;
+  height: 40%;
+  /* background-color: green; */
+  position: absolute;
+
+}
+
+.box2.visible {
+  width: 70%;
+  height: fit-content;
+  padding: 1rem;
+  padding-left: 1rem;
+  z-index: 1;
+  background-color: rgb(255, 245, 233);
+  transition: transform 6s ease-in-out;
+  transform: translateX(-120%);
+  position: relative;
+  left: 0;
+  animation: slide 4s ease-in-out 6s 1 forwards;
+}
+
+.box2.hide {
+  position: relative;
+  left: 0;
+  width: 70%;
+  height: fit-content;
+  padding: 1rem;
+  padding-left: 1rem;
+  z-index: 1;
+  transform: translateX(-120%);
+  background-color: rgb(255, 245, 233);
+  transition: transform 6s ease-in-out;
+  animation: hide 4s ease-in-out 6s 1 forwards;
+}
+@media (min-width:300px) and (max-width:900px) {
+  .box2 {
+    width: 100%;
+  }
+  @keyframes slide {
+    from{
+      transform: translateX(-110%);
+    }
+    to{
+      transform: translateX(-5%);
+    }
+  }
+ 
+}
+@media (min-width:300px) and (max-width:900px) {
+  .box2 {
+    width: 90%;
+  }
+  @keyframes hide {
+    from{
+      transform: translateX(-5%);
+    }
+    to{
+      transform: translateX(-125%);
+    }
+  }
+  
+}
+
+@media (min-width:901px){
+  .box2 {
+    width: 70%;
+  }
+  @keyframes slide {
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(-20%);
+    }
+  }
+  
+  @keyframes hide {
+    from{
+      transform: translateX(-20%);
+    }
+    to{
+      transform: translateX(-126%);
+    }
+  }
+  
+}
+
+@media (min-width:901px){
+  
+  @keyframes hide {
+    from{
+      transform: translateX(-20%);
+    }
+    to{
+      transform: translateX(-126%);
+    }
+  }
+  
+}

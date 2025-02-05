@@ -1,0 +1,54 @@
+.bg_img {
+  width: 100vw;
+  height: 100vh;
+ background-color:rgb(3 3 3 / 57%);
+ position: relative;
+   margin: auto;
+ border-radius: 10px;
+  /* opacity: 0.88; */
+}
+
+
+.blurImg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("nathan-dumlao2.jpg");
+  overflow-x: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  /* transform: rotate(90deg); */
+}
+.heading{
+  color:  rgb(204 204 204);
+}
+
+.para{
+    color: #bdbdbd;
+}
+.btns > button {
+  background-color: #1e1108e6; /* Dark brown background */
+  border: 2px solid rgb(61, 30, 0); /* Darker brown border */
+  border-radius: 10px;
+  color: wheat;
+  width: 45%;
+}
+
+.btns > button.inverted {
+  background-color:rgba(37, 37, 37, 0.397); /* Darker brown background */
+  border: 2px solid rgb(14, 14, 14); /* Dark brown border */
+  border-radius: 10px;
+  color: wheat;
+  width: 45%;
+  
+}
+
+@media (min-width:300px) and (max-width:500px) {
+
+  .btns > button.inverted {
+  display: block;
+    
+  }
+}

@@ -1,0 +1,20 @@
+/* 
+@media (min-width:300px) and  (max-width:700px) {
+    .loc_section{
+      transform: translateX(13%);
+      font-size: 14px;
+    }
+    
+  }
+  @media (min-width:701px) and  (max-width:900px) {
+    .loc_section {
+     top: 0;
+    }
+    
+  }
+  @media (min-width:901px) {
+    .loc_section {
+     top: 0;
+    }
+    
+  } */

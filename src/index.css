@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media   (max-width:700px)  {
+    body,html{
+      width: 100%;
+      overflow-x: none;
+      position: relative;
+    }
+  }
