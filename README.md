@@ -18,5 +18,4 @@
 - **Local Storage**: To persist user and cart data.
 - **JavaScript (ES6+)**: For dynamic functionality.
 
-![Coffee](https://thumbs.dreamstime.com/b/digital-artwork-showcasing-theme-coffee-passion-minimalist-aesthetic-351609942.jpg)  
 
