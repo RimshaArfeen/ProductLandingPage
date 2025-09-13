@@ -12,7 +12,7 @@ const Contact = () => {
 
  
   return (
-    <section className="text-gray-800 body-font relative h-screen bg-gray-100 py-16 -z-10 top-[210vh]  md:top-[80vh] lg:top-[120vh]  ">
+    <section className="text-gray-800 body-font relative h-screen bg-gray-100 py-20 -z-10 ">
 
       <div className="container px-5 mx-auto flex flex-col lg:flex-row lg:w-3/4">
         <div className="lg:w-1/2 w-full lg:pr-8 pb-12 lg:pb-0 flex flex-col">
@@ -48,7 +48,7 @@ const Contact = () => {
               <label htmlFor="message" className="text-gray-700 text-sm font-medium">Message</label>
               <textarea id="message" {...register("message")} className="w-full mt-1 bg-gray-200 rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-24 text-base outline-none text-gray-700 py-2 px-3 resize-none transition-colors duration-200 ease-in-out"></textarea>
             </div>
-            <input type='submit' value='Send Feedback' className="w-full text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg cursor-pointer" />
+            <input type='submit' value='Send Feedback' className="w-full text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-amber-700 rounded text-lg cursor-pointer" />
            
           </div>
         </form>
